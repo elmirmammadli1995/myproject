@@ -1,4 +1,25 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+  padding: 50px 0;
+}
+
+#demo .box {
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  border: 3px solid #466a4b;
+  background-color: #7780ac;
+  transition: 1s;
+}
+#demo .box .minibox {
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  background-color: #4d5c87;
+}
+#demo .box .minibox h1 {
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
