@@ -44,4 +44,12 @@ section {
   font-size: 23px;
   font-weight: 600;
   color: white;
+}
+
+#pos .box {
+  position: relative;
+}
+#pos .box .minibox {
+  padding: 20px 40px;
+  background-color: #3e4484;
 }/*# sourceMappingURL=style.css.map */
