@@ -37,6 +37,9 @@ section {
   font-weight: 600;
   color: white;
 }
+#work .box {
+  padding: 15px 80px 60px;
+}
 #work .box .btn {
   padding: 10px 75px 55px;
   background-color: rgba(141, 72, 103, 0.862745098);
@@ -47,7 +50,7 @@ section {
   font-size: 19px;
 }
 #work .box:hover .btn {
-  padding: 10px 70px 50px;
+  padding: 10px 75px 55px;
   border: 5px solid rgba(141, 72, 103, 0.862745098);
   background-color: rgba(50, 50, 50, 0.862745098);
   transition: 1s;
