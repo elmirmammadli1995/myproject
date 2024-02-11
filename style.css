@@ -60,12 +60,12 @@ section {
   font-size: 19px;
 }
 
-#circle .minibox {
+#circle .box .minibox {
   padding: 80px;
   border-radius: 50%;
   background-color: #966946;
 }
-#circle .minibox h1 {
+#circle .box .minibox h1 {
   font-size: 23px;
   font-weight: 600;
   color: white;
