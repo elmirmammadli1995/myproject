@@ -59,6 +59,36 @@ section {
   color: white;
   font-size: 19px;
 }
+@media screen and (min-width: 500px) {
+  #work .box .btn {
+    padding: 5px 15px 10px;
+    background-color: rgba(91, 52, 52, 0.862745098);
+  }
+  #work .box .btn h1 {
+    color: white;
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 800px) {
+  #work .box .btn {
+    padding: 15px 30px;
+    background-color: rgba(75, 100, 167, 0.862745098);
+  }
+  #work .box .btn h1 {
+    color: white;
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 801px) {
+  #work .box .btn {
+    padding: 10px 75px 55px;
+    background-color: rgba(141, 72, 103, 0.862745098);
+  }
+  #work .box .btn h1 {
+    color: white;
+    font-size: 19px;
+  }
+}
 
 #circle .box .minibox {
   padding: 80px;
