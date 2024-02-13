@@ -77,26 +77,40 @@ section {
 }
 
 #circle .box .minibox {
-  padding: 80px;
+  display: inline-block;
+  padding: 14px 5px;
   border-radius: 50%;
-  background-color: #966946;
-  transition: 1s;
+  background-color: #f9dc6b;
 }
 #circle .box .minibox h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   color: white;
 }
-#circle .box:hover .minibox {
-  padding: 80px;
-  border-radius: 50px;
-  background-color: #966946;
-  transition: 1s;
-}
-#circle .box:hover .minibox h1 {
-  font-size: 24px;
-  font-weight: 600;
-  color: white;
+@media screen and (min-width: 801px) {
+  #circle .box .minibox {
+    display: inline-block;
+    padding: 80px;
+    border-radius: 50%;
+    background-color: #966946;
+    transition: 1s;
+  }
+  #circle .box .minibox h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+  #circle .box:hover .minibox {
+    padding: 80px;
+    border-radius: 50px;
+    background-color: #966946;
+    transition: 1s;
+  }
+  #circle .box:hover .minibox h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
 }
 
 #pos .box {
